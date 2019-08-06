@@ -37,3 +37,9 @@ window.addEventListener('load', function(event) {
     alert('The Venga bus is coming and everybodys jumping!' );
  })
  
+ //scroll
+window.addEventListener('scroll', () => {
+    console.log('Someone scrolled!')
+    document.querySelector('header').style.backgroundColor = 'dodgerblue';
+})
+
