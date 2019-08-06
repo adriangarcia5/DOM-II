@@ -43,3 +43,10 @@ window.addEventListener('scroll', () => {
     document.querySelector('header').style.backgroundColor = 'dodgerblue';
 })
 
+//resize
+window.addEventListener('resize', myResizeFunc)
+function myResizeFunc() {
+    alert('The window was resized!')
+}
+
+
