@@ -61,3 +61,27 @@ document.getElementById('now').addEventListener('dblclick', myDblclick2);
 function myDblclick2(){
     document.getElementById('now').innerHTML = "NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW";
 }
+
+//stopPropagation()
+myBtn= document.querySelector('.btn')
+myHome= document.querySelector('.home')
+
+
+myBtn.addEventListener('click', (event) => {
+    console.log('Button was clicked!')
+    event.stopPropagation()
+    event.target.style.color = 'black'
+})
+
+
+myHome.addEventListener('click', () => {
+    console.log('Home was clicked!')
+})
+
+
+//preventDefault()
+mainNav = document.querySelector('.nav')
+mainNav.addEventListener('click', (event) => {
+    event.preventDefault();
+})
+
