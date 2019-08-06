@@ -14,8 +14,13 @@ logoHeading.addEventListener('mouseout', () => {
 //Keydown
 document.querySelector('body').addEventListener('keydown', myKeydownFunc);
 
-
 function myKeydownFunc() {
     alert('UH-OH, you pressed a button!');
 }
 
+//Wheel
+document.querySelector('.home').addEventListener('wheel', myWheelFunc);
+
+function myWheelFunc() {
+    this.style.color = 'dodgerblue';
+}
