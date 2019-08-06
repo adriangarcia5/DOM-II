@@ -32,3 +32,8 @@ function myClick() {
     document.querySelector(".text-content h2").textContent = "Let's get this party started!"
 }
 
+//Load
+window.addEventListener('load', function(event) {
+    alert('The Venga bus is coming and everybodys jumping!' );
+ })
+ 
