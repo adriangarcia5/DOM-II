@@ -10,3 +10,12 @@ logoHeading.addEventListener('mouseover', () => {
 logoHeading.addEventListener('mouseout', () => {
     logoHeading.classList.toggle('change-color-again')
 })
+
+//Keydown
+document.querySelector('body').addEventListener('keydown', myKeydownFunc);
+
+
+function myKeydownFunc() {
+    alert('UH-OH, you pressed a button!');
+}
+
