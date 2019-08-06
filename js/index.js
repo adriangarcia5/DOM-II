@@ -49,4 +49,15 @@ function myResizeFunc() {
     alert('The window was resized!')
 }
 
+//dblclick
+document.getElementById('party').addEventListener('dblclick', myDblclick);
 
+function myDblclick(){
+    document.getElementById('party').innerHTML = "PARTY PARTY PARTY PARTY PARTY PARTY PARTY PARTY PARTY PARTY PARTY PARTY PARTY PARTY PARTY PARTY PARTY PARTY PARTY PARTY";
+}
+
+document.getElementById('now').addEventListener('dblclick', myDblclick2);
+
+function myDblclick2(){
+    document.getElementById('now').innerHTML = "NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW NOW";
+}
