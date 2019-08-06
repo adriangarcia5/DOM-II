@@ -24,3 +24,11 @@ document.querySelector('.home').addEventListener('wheel', myWheelFunc);
 function myWheelFunc() {
     this.style.color = 'dodgerblue';
 }
+
+//Click
+document.querySelector('.text-content h2').addEventListener('click', myClick)
+
+function myClick() {
+    document.querySelector(".text-content h2").textContent = "Let's get this party started!"
+}
+
